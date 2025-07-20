@@ -187,8 +187,38 @@ header .Sponsor {
 }
 
 /* future products section style */
+.featured-container-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    margin: 0px 165px 100px 165px;
+}
+
 .featured-title {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: bold;
     color: #0A0826;
+}
+
+.featured-description {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6C6C6C;
+}
+
+.featured-content {
+    width: 665px;
+}
+
+.featured-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border: none;
+}
+
+.featured-image {
+    width: 24.24rem;
 }
