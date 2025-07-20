@@ -1,3 +1,8 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 .poppins-thin {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
@@ -5,7 +10,7 @@
 }
 
 .body-primary {
-    color: #AAAAAA;
+    /* background-color: #AAAAAA; */
 }
 
 header {
@@ -19,11 +24,16 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
 }
 
 .nav-logo {
     font-size: 1.8rem;
 }
+
+
 
 nav ul {
     display: flex;
@@ -56,6 +66,7 @@ nav li a {
 .banner-description {
     font-size: 1rem;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .banner button {
@@ -134,20 +145,22 @@ header .Sponsor {
 
 .card-title {
     font-size: 1.8rem;
-    margin-top: -.2rem;
+    /* margin-top: .4rem; */
+    margin-bottom: 0.5rem;
     font-weight: 500;
     color: #18191F;
 }
 
 .card-price {
-    margin-top: -1rem;
+    /* margin-top: -1rem; */
     font-size: 1.4rem;
     color: #00000087;
-    margin-bottom: -1rem;
+    margin-bottom: 1rem;
 }
 
 .rating {
     margin-top: -1rem;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     gap: 0.4rem;
@@ -222,3 +235,37 @@ header .Sponsor {
 .featured-image {
     width: 24.24rem;
 }
+
+/* footer section style */
+footer {
+    /* margin: 0px; */
+    background-color: #0a0826;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+footer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer i {
+    margin-bottom: 5px;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+}
+
+/* .footer-container {
+    align-items: center;
+    justify-content: center;
+} */
